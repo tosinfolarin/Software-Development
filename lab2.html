@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Changing Web Page!</title>
+    <script>
+        var name = "Theo";  // string type
+        var age = 24;  //Number type
+        var teacher = true; // Boolean type: Notice all lowercase true
+        document.write('Name ' + name + '<br>');  // + is used for string concatentation
+        document.write('Age ' + age + '<br>');  // Try using + with another number and see what happens!
+        document.write('Is teacher? ' + teacher);
+        console.log(name);
+        
+    </script>
+    
+</head>
+
+<body>
+    <h1>page heading</h1>
+    <div id="content"></div>
+    <script>document.getElementsByTagName("h1")[0].innerHTML = name;</script>
+</body>
+
+</html>
